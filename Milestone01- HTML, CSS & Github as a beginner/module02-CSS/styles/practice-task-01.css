@@ -1,0 +1,21 @@
+#external {
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    border: 3px dashed red;
+    border-radius: 50px;
+}
+
+#external > h3 {
+    color:coral;
+    font-size: large;
+    font-style:italic;
+    text-decoration: underline;
+}
+
+#external > p {
+    text-align: justify;
+    color: blue;
+    padding: 0px 30px;
+}
