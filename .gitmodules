@@ -1,3 +1,6 @@
 [submodule "nazmul-geekfolio"]
 	path = nazmul-geekfolio
 	url = https://github.com/nazmul-devops/nazmul-geekfolio.git
+[submodule "milestone-01-html-css-and-github-as-a-beginner/programming-hero"]
+	path = milestone-01-html-css-and-github-as-a-beginner/programming-hero
+	url = https://github.com/nazmul-devops/programming-hero.git
