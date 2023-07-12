@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.para {
+    color: blueviolet;
+    text-align: justify;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 20px;
+    padding: 10px;
+    border: 3px dashed rebeccapurple;
+    border-radius: 10px;   
+}
+
+.h3 {
+    text-align: center;
+    color: rgb(69, 57, 57);
+    font-size: 50px;
+    margin: 20px;
+    border: 3px dashed salmon;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+ol {
+    margin: 20px;
+}
+li {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 250px;
+    height: 30px;
+    margin: 1px;
+    text-align: center;
+    padding: 5px;
+}
+li:hover{
+    background-color: rgb(61, 216, 165);
+}

@@ -1,0 +1,3 @@
+[submodule "nazmul-geekfolio"]
+	path = nazmul-geekfolio
+	url = https://github.com/nazmul-devops/nazmul-geekfolio.git

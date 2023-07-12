@@ -1,0 +1,66 @@
+
+
+
+
+/* Form Design  */
+
+#form {
+    background-color: aqua;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+    border: 3px solid black;
+
+}
+
+#form > input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+
+
+
+/* Footer Design  */
+
+footer {
+    background-color: rgb(80, 72, 72);
+    color: white; 
+    margin-top: 20px;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+/* Table design  */
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+
+td, th {
+    border: 2px solid rgb(155, 6, 6);
+    padding: 5px 20px;
+}
+
+
+/* Blog design  */
+
+.blog {
+    text-align: center;
+}
+.blog h2 {
+    font-size: 35px;
+    
+}
+figure img {
+    width: 100%;
+}
