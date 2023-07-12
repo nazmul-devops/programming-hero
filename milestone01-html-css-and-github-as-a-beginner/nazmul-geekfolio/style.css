@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu Bar design  */
+.menu_bar {
+  background-color: rgb(45, 43, 43);
+  color: white;
+  padding: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo_image {
+  width: 120px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu_item {
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.menu_item:hover {
+  color:chocolate
+}
+
+
+/* Banner section design  */
+.banner_container {
+    color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("images/background.png"),
+    linear-gradient(45deg, #474141, #000);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner_image {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 20px gray;
+}
+
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.description {
+    margin: 15px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(194, 24, 24);
+}
+
+
+/* About us section design */
+
+.section_title {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about_us_container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.left_image {
+
+}
+
+#about_left_image {
+    width: 300px;
+}
+
+.right_text {
+
+}
+
+.about_right_text_h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ 
+/* Service section design  */
+
+.service_background {
+    background-image: url("images/background.png"),
+    linear-gradient(45deg, #474141, #000);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.service_section_title {
+    color: #fff;
+    padding-top: 40px;
+}
+
+
+
+.service_container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+}
+
+.service_card {
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    width: 270px;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.service_card_icon {
+    width: 70px;
+}
+
+.service_card_title {
+    font-size: 25px;
+}
+
+.service_card_para {
+    padding: 10px ;
+}
+.service_card_btn {
+    background-color: gray;
+}
+
+.service_card_btn:hover {
+    background-color: rgb(90, 85, 85);
+}
+
+
+/* Footer section design  */
+
+.footer_container {
+    background-color: #242121;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.footer_content {
+    width: 300px;
+    height: auto;
+    padding: 100px;
+}
+
+.footer_content_logo {
+    margin-bottom: 20px;
+}
+
+
+.footer_content_title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.footer_content>ul>li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer_content>p {
+    padding: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
